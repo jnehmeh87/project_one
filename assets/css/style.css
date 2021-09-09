@@ -142,3 +142,6 @@ h1, h2 {
     color: white;
 }
 
+#about-text > h2:first-child {
+    padding-top: 200px;
+}
