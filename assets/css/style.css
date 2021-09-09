@@ -48,7 +48,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    background-color: #3a3a3a2a;
+    background-color: rgba(153, 144, 235, 0.7);
     
 }
 
@@ -67,19 +67,19 @@ h1, h2 {
 }
 
 #cover-text, #cover-text h2 {
-    color: #888888;
+    color: #3b3b3b;
 }
 
 #start-image {
     height: 600px;
-    width: 100%;
-    scale: -2000%;
-    background: url(../images/bw-image.jpg) no-repeat center center;
+    width: 50%;
+    background: url(../images/running-man-bridge-stairs.jpg) no-repeat center center;
+    float: left;
 
     /* animate zoom effect on loading page */
 
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
@@ -94,3 +94,51 @@ h1, h2 {
         transform: scale(1.1);
     }
 }
+
+#cover-text {
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 75px;
+
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+    background-color: rgba(153, 144, 235, 0.7);
+
+    bottom: 30px;
+    left: 750px;
+
+    position: absolute;
+}
+
+/* About text background and style */
+
+#about-text {
+    font-size: 80%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    text-align: center; 
+    line-height: 30px;
+    vertical-align: middle;
+
+    width: 600px;
+    height: 600px;
+
+    background-color: rgba(34, 26, 107, 0.856);
+    border-radius: 50%;
+    float: right;
+    margin-right: 30px;
+    
+}
+
+#about-text > h2 {
+    color: white;
+}
+
