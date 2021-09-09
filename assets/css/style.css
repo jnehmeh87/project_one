@@ -55,3 +55,42 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+/* start image and cover text */
+
+#start-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+#cover-text, #cover-text h2 {
+    color: #888888;
+}
+
+#start-image {
+    height: 600px;
+    width: 100%;
+    scale: -2000%;
+    background: url(../images/bw-image.jpg) no-repeat center center;
+
+    /* animate zoom effect on loading page */
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Create level of zoom for hero image */
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: scale(1.1);
+    }
+}
