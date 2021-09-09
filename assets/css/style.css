@@ -145,3 +145,16 @@ h1, h2 {
 #about-text > h2:first-child {
     padding-top: 200px;
 }
+
+/* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
