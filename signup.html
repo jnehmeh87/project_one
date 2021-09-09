@@ -34,25 +34,31 @@
 
     <section class="form-section">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
+            <h2>Let's get you signed up! <i class="fas fa-camera-retro"></i></h2>
             <label for="fname">First Name</label>
             <input id="fname" name="first_name" type="text" required class="text-input">
             
             <label for="lname">Last Name</label>
             <input id="lname" name="last_name" type="text" required class="text-input">
+
+            <label for="telephone">Telephone</label>
+            <input type="text" id="telephone" name="telephone" required class="text-input">
             
             <label for="email">Email Address</label>
             <input type="email" id="email" name="email_address" required class="text-input">
             
-            <label for="road">Road</label>
-            <input type="radio" id="road" name="running_preference" value="road" required>
-            <label for="trail">Trail</label>
-            <input type="radio" id="trail" name="running_preference" value="trail" required>
-            <label for="both">Both</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
+            <label for="beginner" class="level">Beginner</label>
+            <input type="radio" id="beginner" name="knowledge_level" value="beginner" required>
+            <label for="intermediate" class="level">Intermediate</label>
+            <input type="radio" id="intermediate" name="knowledge_level" value="intermediate" required>
+            <label for="pro" class="level">Professional</label>
+            <input type="radio" id="pro" name="knowledge_level" value="pro" required>
             
             <input class="join-button" type="submit" value="Sign Up!" class="join-button">
         </form>
     </section>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/4a37176526.js" crossorigin="anonymous"></script>
 </body>
 </html>

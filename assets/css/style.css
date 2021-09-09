@@ -171,7 +171,7 @@ h1, h2 {
 }
 
 .signup-form {
-    margin:350px 5% 0 0;
+    margin:320px 0 0 0;
     color:#fff;
     background-color:rgba(153, 144, 235, 0.6);
     max-width:400px;
@@ -183,6 +183,10 @@ h1, h2 {
 .signup-form > h2 {
     color:#fff;
     margin-bottom:20px;
+}
+
+.level:hover {
+    color: rgba(34, 26, 107, 0.856);
 }
 
 .text-input {
