@@ -231,12 +231,15 @@ h1, h2 {
     color:rgba(34, 26, 107, 0.856);
 }
 
+/* Footer  */
+
 footer {
     height: 150px;
 }
 
 .social-networks {
     text-align: center;
+    float: right;
 }
 
 .social-networks > li {
