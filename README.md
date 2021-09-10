@@ -1,108 +1,209 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Portfolio Project 1 - Street Photography
+## Purpose
 
-Welcome jnehmeh87,
+Website for street photography course around Stockholm streets. Providing information, a gallery and a sign up page. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This Website was created for the purpose of completing the Portfolio 1 project for the Code Institute's Full Stack Developer course and is entirely fictional.
+The project covers HTML and CSS with a user centric approach in mind.  A full list of technologies used can be found in the technologies section of this document. Note that GitHub as of March 2021 automatically creates a Table of Contents for the README file.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The live website can be found [here](https://jnehmeh87.github.io/project_one/)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Street Photography Responsive Website
 
-A blue button should appear to click: _Make Public_,
+![Website Mock Up](assets/images/am-i.png)
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+*** 
+## User Experience (UX)
 
-A blue button should appear to click: _Make Public_,
+### User stories
 
-Another blue button should appear to click: _Open Browser_.
+#### First Time Visitor Goals
+* As a First Time user, I want to understand the main purpose of the site at a glance and learn more about the course and its benefits.
+* As a First Time user, I want to check some photos taken by the mentor of this course.
+* As a First Time user, I want to view the website and content clearly on different size devices.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### Returning Visitor Goals
+* As a Returning user, I want to be able to book a course or sign up.
 
-To log into the Heroku toolbelt CLI:
+#### Frequent Visitor Goals
+* As a Frequent user, I want to check if there are added content to the gallery page and check new dates updated regularly
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Design
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Color Scheme
+The Index page contains a start image sided with a circle with some convincing infortiom about the course. The color scheme consists of 2 colors rgba(34, 26, 107, 0.856) and rgba(153, 144, 235, 0.7).
 
-------
+#### Imagery
+Images on index page and gallery page are meant to provide results of quality of pictures and to inspire the user to sign up.	
 
-## Release History
+#### Typography
+Tajawal and Montserrat from Google Fonts are used, with Sans Serif as fallback font.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Differences to Design
+* The Sign up button on index page send us to the for where the user provide their contact info and choose their level of expertise. 
+* Icons from font awesome were added to the footer, form and time section, this displayed more visually pleasing, while maintaining the visual cue for expected form contents.
+* Header was split in 2 rows for mobile devices to keep visual integrity and readibility of header and navbar.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Structure 
+* The Home page follows a Z-shape design with the start image and a circle shape About the course on top and then sections about description and price, finishing with a button linking to the Sign up sheet.
+* The Courses page displays overview information availabe without scrolling. Page links as well as scrolling enables expanded information further down on the page.
+* The gallery page displays images.
+* The Sign up page has a form to submit.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+No submenues are used and the navbar indicates to the user where they are at all times. THe Home page and courses page has direct links to the call to action - i.e. the book page.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Wireframes
+Wireframes are sketched by hand and can be viewed here - [View](wireframes/wireframes.jpg)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+##### Return to [top](#portfolio-project-1---playful-paws) 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Features
+* Internal links (within sheet and between sheets) - both in nav bar and on the sheets
+* External links (social media)
+* Sign up form 
+* Images
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Future features
+* A booking form sending the data to the business owner - current form uses form method get and clears the form upon submit.
+* More courses and pages of behind the scene
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+##### Return to [top](#portfolio-project-1---playful-paws)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Technologies
+### Languages used
+* HTML5
+	* This project uses HTML5 as the main language for content and structure of the Website.
+* CSS3
+	* This project uses CSS3 for Website styling
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Frameworks, Libraries & Programs used
+* [Font Awesome](https://fontawesome.com/)
+	* Font awesome Icons are used 
+* [Google Fonts](https://fonts.google.com/)
+	* Google fonts are used throughout the project to import the relevant fonts
+* [GitHub](https://github.com/)
+	* GithHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+* [GitPod](https://gitpod.io/)
+	* GitPod is used as version control software to commit and push code to the GitHub repository where the source code is stored.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+* [balsamiq Wireframes](https://balsamiq.com/wireframes/)
+	* Balsamiq was used to create wireframes and UX design during the planning and design process.
+* [Am I Responsive?](http://ami.responsivedesign.is/)
+	* Used to generate the screenshots for responsive design.
+	
+##### Return to [top](#portfolio-project-1---playful-paws)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Validation
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project. All pages of the final website passed validation without errors or warnings.
+-   [W3C Markup Validator](https://validator.w3.org/nu/#textarea)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Fixed warnings and errors
+HTML 
+- Duplicate use of element id replaced by use of class
+- Headers added to each section
+- Omitted closing tags added
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+CSS
+- Replaced "min-device-width" by "min-width" for Media queries
+- Border removed where border and background were identical color
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Bugs
+* Opaque part of the hero textbox floats on top on the header while the image itself clears behind
+	* Fixed by setting header to absolute instead of fixed	
+* Book button link on index page does not fill the div box - thus whole button is not clickable. Increased padding will increase clicking area but does not fully resolve issue
+	* Fixed by wrapping anchor element in the flex item div and set display to inline-block and weight and height to 100%
+* Scewed alignment of navbar ul for <600 px
+	* Fixed by removing right side margin for media query only
+* Book link buttons display as hyperlink but are not clickabe on courses - long section. 
+	* Bug appreas to be caused by position: absolute and a z-index for the div. Fixed by changing positioning from absolute to relative and setting the img div to absolute instead (in order to retain the overlap)
+* Footer sticks to middle of inspiration page for < 600px
+	* Caused by flexitem overflowing the flexbox at last element on page before footer, fixed by setting flexbox height to auto instead of fixed height
 
-------
+### User stories testing
+1. The header has a paw icon and the name "Playful Paws",  directly indication the company segment.
+The landing page has a large hero image of dogs with associated text declaring "Leadership Courses". Textboxes with limited text declares both the philosphy and more about the company without scrolling.
 
-## FAQ about the uptime script
+	The purpose of this is to fulfill user story:
+	"As a First Time user, I want to understand the main purpose of the site at a glance and learn more about the organisation and what they offer."
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+2. All pages has a Navigation menu at the top of the page that directs them to a new page. The active page will be highlighted in a green color to contrast the dark header. The navigation menu will remain fully visible on all devices due to its limited size but will centered for smaller devices. The index (home) page and courses page also has large links to the book page in the same green contrast color as the active page to improve user call to action.
+The intro section on the Courses page has internal links to each longer section for the course to give users who know what they are looking for direct access without scrolling.
 
-**How will this affect me?**
+  	The purpose of this is to fulfill user story:
+	"As a First Time user, I want to effortlessly navigate throughout the site to find content."
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+3. Custom CSS is used to make the Website responsive by the use of media queries with main cut-offs at <600px and <950px.
+Text and images that will not display visually appealing on small devices will be disabled or replaced (for example, on mobile devices the small images in the courses page intro section are replaced by dog icons and the image on the book page is removed). 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+	The purpose of this is to fulfill user story:
+	"As a First Time user, I want to view the website and content clearly on different size devices."
 
-**So….?**
+4. The book page has 3 fieldsets with all information required to be provided to book a course. Required fields are marked with an asterisk.
+  
+  	The purpose of this is to fulfill user story:
+	"As a Returning user, I want to be able to book a course."
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+5. The inspiration page has an embedded YouTube video on Dog Leadership and a selection of inspiring images.
+  
+  	The purpose of this is to fulfill user story:
+	"As a Frequent user, I want to check if there are added content to the Inspiration page"
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Further Testing
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+The site was testes to to ensure consistency across browsers and screen sizen. Full testing matrix can be found [here](https://github.com/CeciliaSwe/portfolio-1st/blob/master/miscellaneous/testing_matrix_portfolio-1st.xlsx)
 
-**Anything more?**
+Noted Issues
+* Links in intro section correspond to the headers for each course in the long section and cuts off the image at some screen sizes depending on image placement.	
+* Selection arrows for Book page input filed for age are only clickable intermittently using Mozilla Firefox . The input field itself is functioning and only allows numbers. I attempted to fix this with a moz-apperance property, but was not successful. 					
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+##### Return to [top](#portfolio-project-1---playful-paws)
 
----
+## Deployment
+### GitHub Pages
 
-Happy coding!
+The project was deployed to GitHub Pages through the below steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/CeciliaSwe/portfolio-1st)
+2. Click the "Setting" button "Settings" Button.
+3. In the left menu, scroll down to "Pages".
+4. Under "Source", click the dropdown and select "Branch: master", then click "Save".
+5. Once deployed, the now published site [link](https://ceciliaswe.github.io/portfolio-1st/) is found in the "Pages" section.
+
+##### Return to [top](#portfolio-project-1---playful-paws)
+
+## Credits
+### Images and videos
+* Image on book page: [Photo by Richard Brutyo on Unsplash photo](https://unsplash.com/@richardbrutyo)
+* Image on index page: own photo
+* Imgaes on courses page: own photos
+* Images on inspiration page: [HD Wallpaper](https://www.hdwallpaper.nu/)
+* Video on Inspiration page: embedded from YouTube
+
+### Code
+All code has been custom written for this project, but inspiration and tutoritals are credited as per below:
+
+* Form fieldsets (ledgend style and inline display of label and input field) was inspired by [Sanwebe](https://www.sanwebe.com/2014/08/css-html-forms-designs)
+* Use of hero image and overlapping textfield was inspired by the  Code Institute Love Running Walkthrough
+* Use of text transform for footer icons was inspired by the Code Institute Love Running Walkthrough
+* The use of Flexbox was taught by [CSS tricks flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* The technique to omitt elements in media queries was taught by [The Site Wizard](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
+
+### Acknowledgements
+
+-   To my Mentor [Chris Quinn](https://github.com/10xOXR) for patience during technical difficulties, for pushing me to make smart choices and for inspiration for the testing matrix.
+-   To CI Tutor Jo for CSS debugging.
+
+##### Return to [top](#portfolio-project-1---playful-paws)
+
+
+
