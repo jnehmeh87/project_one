@@ -111,7 +111,7 @@ h1, h2 {
     background-color: rgba(153, 144, 235, 0.7);
 
     bottom: 30px;
-    left: 750px;
+    left: 650px;
 
     position: absolute;
 }
@@ -127,14 +127,15 @@ h1, h2 {
     text-align: center; 
     line-height: 30px;
     vertical-align: middle;
+    position: relative;
 
     width: 600px;
     height: 600px;
 
     background-color: rgba(34, 26, 107, 0.856);
     border-radius: 50%;
-    float: right;
-    margin-right: 30px;
+    float: left;
+    margin-left: 200px;
     
 }
 
@@ -326,3 +327,98 @@ footer {
     color:rgba(34, 26, 107, 0.856);
 }
 
+/* Media queries */
+
+/* For larger to medium screens size from 1600px wide and down */
+
+@media screen and (max-width:1600px) {
+    #cover-text {
+        left: 500px;
+    }
+
+    #about-text {
+        margin-left: 90px;
+    }
+}
+
+/* For larger to medium screens size from 1380px wide and down */
+
+@media screen and (max-width:1380px) {
+    #start-image {
+        width: 100%;
+        float: none;
+        background-size: cover;
+    }
+    #cover-text {
+        float: none;
+        left: 10px;
+    }
+
+    #about-text {
+        float: right;
+        margin-left: 0;
+        
+    }
+}
+
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width:1200px) {
+    #description-image {
+        margin: 10px;
+    }
+    
+    .description-text {
+        margin: -10px;
+    }
+    
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    #times h2 {
+        color: #fafafa;
+        padding: 5px;
+    }
+}
+
+    
+
+/* For medium screens size from 950px wide and down */
+
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #description-image {
+        clear: right;
+    }
+
+    .description-text {
+        width: 35%;
+        padding-top: 150px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
