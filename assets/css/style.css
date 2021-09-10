@@ -78,14 +78,14 @@ h1, h2 {
 
     /* animate zoom effect on loading page */
 
-    animation-name: hero-zoom;
+    animation-name: start-zoom;
     animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
-/* Create level of zoom for hero image */
+/* Create level of zoom for start image */
 
-@keyframes hero-zoom {
+@keyframes start-zoom {
     from{
         transform: scale(1);
     }
@@ -144,6 +144,37 @@ h1, h2 {
 
 #about-text > h2:first-child {
     padding-top: 200px;
+}
+
+/* Description text and style */
+
+#description {
+    height: 600px;
+}
+
+#description-image {
+    background: url(../images/view-of-stockholm.jpg) no-repeat center right;
+    width: 50%;
+    height: 600px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    clear: right;
+}
+
+.description-text {
+    font-size: 120%;
+    width: 45%;
+    height: 200px;
+    text-align: left;
+    left: 10%;
+    position: relative;
+    clear: left;
+    padding-top: 250px;
+    
+    color: rgba(34, 26, 107, 0.856);
+
+     float: left;
 }
 
 /* gallery */
@@ -218,3 +249,4 @@ h1, h2 {
     background-color:#fafafa;
     color:rgba(34, 26, 107, 0.856);
 }
+
