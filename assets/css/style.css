@@ -383,6 +383,10 @@ footer {
         color: #fafafa;
         padding: 5px;
     }
+
+    #photos {
+        column-count: 3;
+    }
 }
 
     
@@ -411,9 +415,7 @@ footer {
         padding-top: 150px;
     }
 
-    #photos {
-        column-count: 3;
-    }
+    
 }
 
 /* For small screen sizes 800px and down */
